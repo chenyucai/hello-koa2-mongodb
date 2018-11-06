@@ -1,5 +1,5 @@
 {
-  "name": "koa-demo",
+  "name": "hello-koa2-mongo",
   "version": "0.1.0",
   "private": false,
   "scripts": {
@@ -12,10 +12,12 @@
     "babel-polyfill": "^6.26.0",
     "bluebird": "^3.5.2",
     "debug": "^2.6.3",
+    "jsonwebtoken": "^8.3.0",
     "koa": "^2.2.0",
     "koa-bodyparser": "^3.2.0",
     "koa-convert": "^1.2.0",
     "koa-json": "^2.0.2",
+    "koa-jwt": "^3.5.1",
     "koa-logger": "^2.0.1",
     "koa-onerror": "^1.2.1",
     "koa-router": "^7.1.1",

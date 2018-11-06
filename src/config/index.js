@@ -17,3 +17,7 @@ export const defaultSchemaOptions = {
     updatedAt: 'updateTime'
   }
 };
+
+export const jwtConfig = {
+  secret: 'myjwtsecret'
+};

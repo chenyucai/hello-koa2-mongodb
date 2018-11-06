@@ -4,13 +4,10 @@ import verify from '../middleware/verify';
 
 const router = new Router();
 
-router.prefix('/user');
+router.prefix('/api/user');
 
 router
-  .get('/', async (ctx, next) => {
-    ctx.body = 'hello koa'
-  })
-  .get('/getAll', verify, UserController.getAllUser)
+  .get('/getAll', UserController.getAllUser)
   .post('/saveUser', verify, UserController.saveUser)
   .get('/getUserById', UserController.getUserById)
 
