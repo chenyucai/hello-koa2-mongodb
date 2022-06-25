@@ -1,5 +1,5 @@
 import * as jwt from "jsonwebtoken";
-import {jwtConfig} from "../config/index";
+import { jwtConfig } from "../config/index";
 
 export default async (ctx, next) => {
   // console.log('token:', ctx.get('token'))
