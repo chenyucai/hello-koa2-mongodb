@@ -4,34 +4,34 @@
   "private": false,
   "scripts": {
     "start": "npm run dev",
-    "dev": "NODE_ENV=development ./node_modules/.bin/nodemon bin/www",
+    "dev": "nodemon bin/www",
     "prd": "pm2 start bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "bluebird": "^3.5.2",
-    "debug": "^2.6.3",
-    "jsonwebtoken": "^8.3.0",
-    "koa": "^2.2.0",
-    "koa-bodyparser": "^3.2.0",
-    "koa-convert": "^1.2.0",
+    "bluebird": "^3.7.2",
+    "debug": "^4.3.4",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-convert": "^2.0.0",
     "koa-json": "^2.0.2",
-    "koa-jwt": "^3.5.1",
-    "koa-logger": "^2.0.1",
-    "koa-onerror": "^1.2.1",
-    "koa-router": "^7.1.1",
-    "koa-static": "^3.0.0",
-    "koa-views": "^5.2.1",
-    "mongoose": "^5.3.3",
-    "pug": "^2.0.0-rc.1"
+    "koa-jwt": "^4.0.3",
+    "koa-logger": "^3.2.1",
+    "koa-onerror": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^8.0.0",
+    "mongoose": "^6.4.0",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-plugin-add-module-exports": "^1.0.4",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "babel-register": "^6.26.0",
-    "nodemon": "^1.8.1"
+    "nodemon": "^2.0.18"
   }
 }

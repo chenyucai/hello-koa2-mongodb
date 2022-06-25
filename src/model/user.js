@@ -1,5 +1,5 @@
 import mongoose from '../dbHelper';
-import {defaultSchemaExtend, defaultSchemaOptions} from "../config/index";
+import { defaultSchemaExtend, defaultSchemaOptions } from "../config/index";
 
 const Schema = mongoose.Schema;
 

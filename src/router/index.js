@@ -13,7 +13,7 @@ router
     let userToken = {
       name: 'nicchan'
     };
-    //token签名 有效期为1小时
+    //token签名 有效期为3小时
     const token = jwt.sign(userToken, jwtConfig.secret, {expiresIn: '3h'});
     ctx.body = {
       token
